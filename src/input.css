@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;600;700&display=swap');
+
+@layer base {
+    body {
+      @apply bg-[#1e1e1e]
+    }
+
+    button {
+        @apply 
+            bg-gray-500 py-2 px-4 mt-2 outline-none rounded-3xl text-[#1e1e1e]
+            hover:bg-gray-500/90
+    }
+}

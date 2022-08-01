@@ -27,27 +27,24 @@
       <div class="col-start-2 mx-px rounded-xl bg-black/20 px-4 py-2.5">
         <div class="flex items-center justify-between">
           <div class="flex items-center space-x-6">
+            <a href="#top-section">
             <div
               class="flex justify-center cursor-pointer items-center rounded-full bg-black font-semibold tracking-widest w-[36px] h-[36px] ring-[3px] ring-[#810955]"
             >
               <h2 class="text-sm text-[#810955]">MM</h2>
             </div>
+            </a>
           </div>
           <div
             class="flex items-center space-x-7 text-base font-medium leading-none text-rose-100 sm:text-lg"
           >
             <a
-              href="#skills"
+              href="#skills-section"
               class="hover:underline hover:underline-offset-4 hover:decoration-rose-300/30 hover:text-rose-200/90"
               >Skills</a
             >
             <a
-              href="#ideologies"
-              class="hover:underline hover:underline-offset-4 hover:decoration-rose-300/30 hover:text-rose-200/90"
-              >Ideologies</a
-            >
-            <a
-              href="#projects"
+              href="#projects-section"
               class="hover:underline hover:underline-offset-4 hover:decoration-rose-300/30 hover:text-rose-200/90"
               >Projects</a
             >
@@ -61,7 +58,7 @@
       <div class="lg:col-start-2 mt-12 sm:mt-0">
         <!-- Top -->
         <div>
-          <div class="nav-scrolled-hide container">
+          <div id="top-section" class="nav-scrolled-hide container">
             <div class="flex items-center space-x-6">
               <div
                 class="flex justify-center cursor-pointer items-center rounded-full bg-black font-semibold tracking-widest w-[74px] h-[74px] ring-[3px] ring-[#810955]"
@@ -86,37 +83,24 @@
                 DATABASE / API / APP / PAGE <br />
                 at a time.
               </p>
-              <a href="#" class="text-lg"><button>Let's connect</button></a>
+              <a href="https://www.linkedin.com/in/muma-mutale/" target="_blank" class="text-lg"><button>Let's connect</button></a>
             </div>
             <div class="mt-8 sm:mt-12">
               <div
                 class="flex items-center space-x-7 text-base font-medium leading-none text-rose-100/90 sm:text-lg"
               >
-                <a
-                  href="#skills"
-                  class="hover:underline hover:underline-offset-4 hover:decoration-rose-300/30 hover:text-rose-200/90"
-                  >Skills</a
-                >
-                <a
-                  href="#ideologies"
-                  class="hover:underline hover:underline-offset-4 hover:decoration-rose-300/30 hover:text-rose-200/90"
-                  >Ideologies</a
-                >
-                <a
-                  href="#projects"
-                  class="hover:underline hover:underline-offset-4 hover:decoration-rose-300/30 hover:text-rose-200/90"
-                  >Projects</a
-                >
+                <a href="#skills-section">Skills</a>
+                <a href="#projects-section">Projects</a>
               </div>
             </div>
           </div>
         </div>
 
         <!-- Main -->
-        <div class="space-y-10 mt-20 sm:mt-32">
+        <div class="grid grid-cols-1 gap-y-40 space-y-10 mt-20 sm:mt-32">
           <!-- Skills -->
-          <div class="block bg-black/5 p-5 rounded-lg">
-            <h3 class="text-gray-500/30 text-xl">Skills</h3>
+          <div id="skills-section" class="block bg-black/5 p-5 rounded-lg">
+            <h3 class="text-gray-500/30 text-lg">I use . . .</h3>
             <h2
               class="mt-10 mb-4 text-xl text-gray-500/40 underline underline-offset-4"
             >
@@ -163,10 +147,10 @@
                 <i class="devicon-yii-plain-wordmark colored"></i>
               </div>
             </div>
-            <p class="mt-6 text-sm text-gray-500/30">Hover for details</p>
+            <p class="mt-6 text-sm text-gray-500/30">Contact for details</p>
           </div>
-
-          <div
+          <!-- Projects -->
+          <div id="projects-section"
             class="block bg-black/5 p-5 shadow-sm transition duration-300 hover:bg-white/5"
           >
             <h3 class="text-gray-500/30 text-xl">Projects</h3>
@@ -182,7 +166,7 @@
               <div class="space-x-5 pt-2 lg:pt-0"></div>
             </div>
           </div>
-          <p class="mt-8 text-gray-600/60">Built with Tailwind</p>
+          <p class="mt-8 text-gray-600/60">Powered by <a href="https://pages.github.com/" target="_blank">Github Pages</a></p>
         </footer>
       </div>
     </main>
